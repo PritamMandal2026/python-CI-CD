@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/user/hello-app.git'
+                url: 'https://github.com/PritamMandal2026/python-CI-CD.git'
             }
         }
 
